@@ -1,0 +1,25 @@
+title: "Personal blog"
+author: "Andrea Jegher"
+description: "" 
+
+email: "andrea.jegher@pm.me"
+github_username: "m0rt1c"
+
+theme: "minima"
+
+rss: rss
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
